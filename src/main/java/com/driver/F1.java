@@ -3,7 +3,7 @@ package com.driver;
 public class F1 extends Car {
 
     public F1(String name, boolean isManual) {
-        super(name, 4, 0, 6, isManual, "Racing", 1);
+        super(name, 4, 2, 6, isManual, "F1", 1);
     }
 
     public void accelerate(int rate){
@@ -29,7 +29,7 @@ public class F1 extends Car {
             changeGear(3);
         }else if(newSpeed<=200){
             changeGear(4);
-        }else if(newSpeed<=251){
+        }else if(newSpeed<=250){
             changeGear(5);
         }else{
             changeGear(6);
