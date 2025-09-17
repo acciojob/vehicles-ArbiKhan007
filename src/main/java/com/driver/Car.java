@@ -1,7 +1,6 @@
 package com.driver;
 
 public class Car extends Vehicle {
-    private String name;
     private int wheels;
     private String type;
     private int doors;
@@ -14,13 +13,7 @@ public class Car extends Vehicle {
         super("Car");
     }
 
-    public String getName() {
-        return name;
-    }
 
-    public void setName(String name) {
-        this.name = name;
-    }
 
     public int getWheels() {
         return wheels;
